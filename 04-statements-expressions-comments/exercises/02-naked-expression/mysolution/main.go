@@ -9,19 +9,14 @@
 package main
 
 // ---------------------------------------------------------
-// EXERCISE: Comment out
+// EXERCISE: Naked Expression
 //
-//  Use single and multiline comments to comment Printlns.
+//  1. Try to type just "Hello" on a line.
+//  2. Do not use Println
+//  3. Observe the error
 //
-// EXPECTED OUTPUT
-//  You shouldn't see any output after you're done.
 // ---------------------------------------------------------
 
 func main() {
-	/*
-		fmt.Println("hello")
-		fmt.Println("how")
-		fmt.Println("are")
-		fmt.Println("you")
-	*/
+	"Hello"
 }

@@ -8,20 +8,22 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Comment out
+// EXERCISE: Operators combine the expressions
 //
-//  Use single and multiline comments to comment Printlns.
+//  Print the expected output below using the string
+//  concatenation operator.
+//
+// HINT
+//  Use + operator multiple times to create "Hello!!!?".
 //
 // EXPECTED OUTPUT
-//  You shouldn't see any output after you're done.
+//  "Hello!!!?"
 // ---------------------------------------------------------
 
 func main() {
-	/*
-		fmt.Println("hello")
-		fmt.Println("how")
-		fmt.Println("are")
-		fmt.Println("you")
-	*/
+
+	fmt.Println("Hello!" + "!!?")
 }
