@@ -8,6 +8,8 @@
 
 package main
 
+import "os"
+
 // ---------------------------------------------------------
 // EXERCISE: Print Your Name
 //
@@ -32,6 +34,10 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// get your name from the command-line
-	// and print it
+	args := os.Args
+	if len(args) < 2 {
+		panic("Please enter your name as an argument")
+	}
+	name := args[1]
+	println("Hi", name, "How are you?")
 }
