@@ -40,5 +40,15 @@ func main() {
 		"\t}]\n" +
 		"}\n"
 
+	// json = `
+	// 	{
+	// 		Items: [
+	// 			Item: {
+	// 				name: "Teady Bear"
+	// 			}
+	// 		]
+	// 	}
+	// `
+
 	fmt.Println(json)
 }
